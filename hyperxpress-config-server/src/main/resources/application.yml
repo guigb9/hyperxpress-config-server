@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/guigb9/config-server-hyperxpress
+          uri: https://github.com/guigb9/configs-hyperxpress
             #username: username
           #password: password
           default-label: main
