@@ -8,9 +8,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/guigb9/configs-hyperxpress
-            #username: username
-          #password: password
+          ignoreLocalSshSettings: false
+          passphrase: gui1019
+          uri: git@github.com:guigb9/configs-hyperxpress.git
           default-label: main
           search-paths:
             - 'hyperxpress*'
